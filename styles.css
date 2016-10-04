@@ -13,16 +13,21 @@ body {
 }
 
 
+
+
 /* Link Styles */
 
 
 a {
   text-decoration: none;
   color: #999;
+  font-weight: 900;
+  
 }
 
 a:hover {
   color: #6633ff;
+  font-weight: 900;
 }
 
 /* Section Styles */
@@ -50,7 +55,7 @@ header .profile-image {
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(4deg);
 }
 
 .main-nav {
@@ -91,6 +96,7 @@ header .profile-image:hover {
   font-weight: 400;
   margin: 0 auto;
   padding: 0;
+  list-style-type: none;
 }
 
 .nav .name {
@@ -169,8 +175,6 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
-}
-  
 }
 
 footer {
