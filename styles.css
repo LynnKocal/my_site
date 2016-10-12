@@ -25,7 +25,6 @@ a {
   text-decoration: none;
   color: #999;
   font-weight: 900;
-  
 }
 
 a:hover {
@@ -37,7 +36,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/lanark-farmers-market.jpg') no-repeat top center ;
+  background: url('images/lanark-farmers-market.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -219,6 +218,7 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
@@ -237,7 +237,8 @@ a.social:hover {
       max-width: 1200px;
       justify-content: space-around;
       margin: 0 auto;
-  }
+    }
+}
 
   header {
     min-height: 470px;
@@ -247,7 +248,6 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
-
 
   main {
     padding-top: 20px;
